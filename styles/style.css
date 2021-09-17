@@ -1,18 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap');
+
+mark {
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .container{
     color: white;
     position: relative;
     display: inline-block;
     text-align: center;
         }
-    .titulo{
+
+.titulo{
         position: absolute;
         top: 10px;
         left: 50%;
         padding-block-start: 2em;
-    }
-    .texto{
+}
+
+.texto{
         position: absolute;
         top: 40%;
         left: 60%;
         transform: translate(-50%, -50%);
-    }
+}
+
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    width: 20em;
+}
